@@ -35,16 +35,7 @@ public class Screencapture {
 		File dest2 = new File ("C:\\Users\\Jaya Prakash\\Desktop\\Online java class\\Selenium\\Screenshots java\\p2.png");		
 		FileHandler.copy(scrFile1, dest2);
 
-		// logo capture 
-
-
-		WebElement logo = driver.findElement(By.id("nav-logo-sprites"));
-		File scrFile11 = logo.getScreenshotAs(OutputType.FILE);
-		File dest1= new File ("C:\\Users\\Jaya Prakash\\Desktop\\Online java class\\Selenium\\Screenshots java\\logo.png");		
-		FileHandler.copy(scrFile11, dest1);
-
-		
-		driver.quit();
+	
 
 
 	}
